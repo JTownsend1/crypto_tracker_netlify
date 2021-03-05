@@ -1,5 +1,5 @@
 
-import { Browser, Route, Switch, Redirect, BrowserRouter } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import Homepage from './Homepage.js';
 import CoinDetail from './CoinDetail1.js';
 
@@ -9,7 +9,7 @@ import React from 'react'
 export default function App() {
   return (
     <div>
-      Hello world
+      Hello HELLLLLLLOOOOOOOOOO
       <BrowserRouter>
         <Switch>
           <Route exact path='/' render={() => <Homepage />}/>
